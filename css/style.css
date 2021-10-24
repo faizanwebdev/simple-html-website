@@ -1,0 +1,67 @@
+body{
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+.logo{
+    float: left;
+    padding: 15px;
+}
+.logoimg{
+    height: 50px;
+    width: 200px;;
+}
+.searchbar{
+    float: right;
+    padding: 15px;    
+}
+.clearfix{
+    clear: both;
+}
+.main-menu{
+    background-color: teal;
+}
+.main-menu > ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.main-menu > ul > li{
+    display: inline-block;
+}
+.main-menu > ul > li > a{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-size: small;
+}
+.main-menu > ul > li > a:hover{
+    background-color: orange;
+}
+.dropdown{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    list-style-type: none;
+    display: none;
+}
+.dropdown > li > a{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-size: small;
+}
+.dropdown > li > a:hover{
+    background-color: orange;
+}
+.main-menu > ul > li:hover .dropdown{
+    display: block;
+}

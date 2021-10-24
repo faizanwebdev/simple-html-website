@@ -8,26 +8,28 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div><!--complete container-->
+    <div class="container"><!--complete container-->
 
         <header><!--Header start-->
-            <div><!--Logo start-->
-                <img src="images/logo2.png" alt="logo">
+            <div class="logo"><!--Logo start-->
+                <img src="images/logo2.png" class="logoimg" alt="logo">
             </div><!--logo end-->
 
-            <div><!--search bar start-->
+            <div class="searchbar"><!--search bar start-->
                 <form>
                     <input type="text" name="search" id="searchbox">
                     <input type="submit" name="submit" value=">">
                 </form>
             </div><!--search bar end-->
 
-            <nav><!--navigation start-->
+            <div class="clearfix"></div>
+
+            <nav class="main-menu"><!--navigation start-->
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a>
-                        <ul>
+                        <ul class="dropdown">
                             <li><a href="#">Service 1</a></li>
                             <li><a href="#">Service 2</a></li>
                             <li><a href="#">Service 3</a></li>
