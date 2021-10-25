@@ -158,4 +158,36 @@ body{
 }
 .content img{
     width: 100%;
+    border-radius: 10px;
+}
+.product{
+    width: 210.33px;
+    height: auto;
+    float: left;
+    border: 1px solid;
+    margin: 5px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+.product-caption > p{
+    font-weight: bold;
+    text-align: center;
+}
+.product-caption > p > del{
+    color: red;
+}
+.product-caption > p > ins{
+    color: green;
+}
+.product-caption > a{
+    display: block;
+    text-decoration: none;
+    background-color: teal;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+}
+.product-caption > a:hover{
+    background-color: orange;
 }

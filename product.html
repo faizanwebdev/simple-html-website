@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container"><!--complete container-->
+
+        <header><!--Header start-->
+            <div class="logo"><!--Logo start-->
+                <img src="images/logo2.png" class="logoimg" alt="logo">
+            </div><!--logo end-->
+
+            <div class="searchbar"><!--search bar start-->
+                <form>
+                    <input type="text" name="search" id="searchbox">
+                    <input type="submit" name="submit" value=">">
+                </form>
+            </div><!--search bar end-->
+
+            <div class="clearfix"></div>
+
+            <nav class="main-menu"><!--navigation start-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Services</a>
+                        <ul class="dropdown">
+                            <li><a href="services/services1.html">Service 1</a></li>
+                            <li><a href="services/services2.html">Service 2</a></li>
+                            <li><a href="services/services3.html">Service 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav><!--navigation end-->
+
+        </header><!--Header end-->
+
+
+        <section class="content-holder"><!--content section-->
+
+            <article class="content"><!--article content-->
+                <h3>Products</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus fuga aperiam molestiae libero modi in eius et, beatae, voluptatem assumenda rerum? Eaque culpa laboriosam harum, beatae exercitationem esse corporis sapiente!</p>
+                <div class="product-list"><!--product list start-->
+                    <div class="product">
+                        <img src="images/product1.jpg" alt="Laptop">
+                        <div class="product-caption">
+                            <p>Laptop</p>
+                            <p><del>Rs. 50,000/-</del> <ins>Rs. 35,000/-</ins></p>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="images/product1.jpg" alt="Laptop">
+                        <div class="product-caption">
+                            <p>Laptop</p>
+                            <p><del>Rs. 50,000/-</del> <ins>Rs. 35,000/-</ins></p>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <img src="images/product1.jpg" alt="Laptop">
+                        <div class="product-caption">
+                            <p>Laptop</p>
+                            <p><del>Rs. 50,000/-</del> <ins>Rs. 35,000/-</ins></p>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div><!--product list end-->
+            </article><!--article content end-->
+
+            <aside class="sidebar"><!--sidebar start-->
+                <div>
+                    <h3>Widget</h3>
+                    <ul>
+                        <li><a href="#">2019</a></li>
+                        <li><a href="#">2020</a></li>
+                        <li><a href="#">2021</a></li>
+                    </ul>
+                </div>
+            </aside><!--siddebar end-->
+            <div class="clearfix"></div>
+        </section><!--content section end-->
+
+        <footer class="footer"><!--footer start-->
+
+            <div class="footer-box"><!--service link start-->
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="services/service1.html">Service 1</a></li>
+                    <li><a href="services/services2.html">Service 2</a></li>
+                    <li><a href="services/services3.html">Service 3</a></li>
+                </ul>
+            </div><!--service link end-->
+
+            <div class="footer-box"><!--quicklink start-->
+                <h3>Quicklinks</h3>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div><!--quicklink end-->
+
+            <div class="footer-box"><!--Address start-->
+                <h3>Address</h3>
+                <p>Somewhere in world</p>
+                <p>Email: <a href="mailto:someone@example.com">someone@exaple.com</a></p>
+                <p>Phone: <a href="tel:1234567890">1234567890</a></p>
+            </div><!--Address end-->
+            <div class="clearfix"></div>
+        </footer><!--footer end-->
+
+        <div class="copyright">
+            <p>Copyright &copy; 2021. All Rights Reserved</p>
+        </div>
+
+
+    </div><!--complete container end-->
+</body>
+</html>
