@@ -50,6 +50,7 @@ body{
     position: absolute;
     list-style-type: none;
     display: none;
+    z-index: 999;
 }
 .dropdown > li > a{
     color: white;
@@ -112,4 +113,46 @@ body{
     text-decoration: none;
     color: white;
     font-style: italic;
+}
+.footer{
+    background-color: black;
+    color: white;
+    width: 950px;
+    padding: 25px;
+    height: auto;
+}
+.footer-box{
+    width: 316.66px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+.footer-box > ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.footer-box > ul > li > a{
+    text-decoration: none;
+    display: block;
+    font-size: small;
+    color: white;
+    margin-bottom: 5px;
+}
+.footer-box p{
+    font-style: italic;
+    font-size: small;
+}
+.footer-box p > a{
+    color: teal;
+}
+.copyright{
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+    background-color: crimson;
+    color: white;
+}
+.copyright p{
+    margin: 0px;
 }
